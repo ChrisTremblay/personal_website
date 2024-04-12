@@ -1,12 +1,15 @@
 import { useState } from 'react';
-import './App.css';
-
-function App() {
+import Container from 'react-bootstrap/Container';
+import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar';
+const App = () => {
   return (
     <>
-      <div>The start of something great</div>
+      <Navbar />
+      <Container>The start of something great</Container>
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
