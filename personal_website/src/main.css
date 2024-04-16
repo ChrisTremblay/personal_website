@@ -29,3 +29,7 @@
   --brown-mononochrome-medium-light: #e0a2a2;
   --brown-mononochrome-light: #f3b6b6;
 }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
