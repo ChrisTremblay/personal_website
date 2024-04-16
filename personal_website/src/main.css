@@ -1,0 +1,31 @@
+:root {
+  --teal-mononochrome-dark: #03312e;
+  --teal-mononochrome-medium-dark: #037171;
+  --teal-mononochrome-medium: #009f93;
+  --teal-mononochrome-medium-light: #00b9ae;
+  --teal-mononochrome-light: #02c3bd;
+
+  --purple-mononochrome-dark: #240046;
+  --purple-mononochrome-medium-dark: #3c096c;
+  --purple-mononochrome-medium: #5a189a;
+  --purple-mononochrome-medium-light: #7b2cbf;
+  --purple-mononochrome-light: #9d4edd;
+
+  --blue-mononochrome-dark: #0f3a57;
+  --blue-mononochrome-medium-dark: #2280bf;
+  --blue-mononochrome-medium: #3498db;
+  --blue-mononochrome-medium-light: #63b0e3;
+  --blue-mononochrome-light: #97caed;
+
+  --coral-mononochrome-dark: #ef6351;
+  --coral-mononochrome-medium-dark: #f38375;
+  --coral-mononochrome-medium: #f7a399;
+  --coral-mononochrome-medium-light: #fbc3bc;
+  --coral-mononochrome-light: #ffe3e0;
+
+  --brown-mononochrome-dark: #915858;
+  --brown-mononochrome-medium-dark: #a56c6c;
+  --brown-mononochrome-medium: #c38888;
+  --brown-mononochrome-medium-light: #e0a2a2;
+  --brown-mononochrome-light: #f3b6b6;
+}

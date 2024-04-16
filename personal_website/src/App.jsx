@@ -1,11 +1,10 @@
-import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import { Footer } from './components/Footer';
-import { Navbar } from './components/Navbar';
+import { NavigationBar } from './components/NavigationBar/NavigationBar';
 const App = () => {
   return (
     <>
-      <Navbar />
+      <NavigationBar />
       <Container>The start of something great</Container>
       <Footer />
     </>
