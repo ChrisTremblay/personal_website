@@ -1,0 +1,31 @@
+.logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2px;
+  cursor: default;
+}
+
+.logo-image-title-container {
+  display: flex;
+}
+
+.logo-image {
+  width: 35px;
+}
+
+.logo-title {
+  font-size: 3rem;
+  text-align: right;
+  width: 40px;
+  font-weight: 800;
+}
+
+.logo-description {
+  text-align: right;
+  font-size: 0.9rem;
+  margin-top: -1.5rem;
+  width: 95%;
+}

@@ -7,7 +7,7 @@
 
   --purple-mononochrome-dark: #240046;
   --purple-mononochrome-medium-dark: #3c096c;
-  --purple-mononochrome-medium: #5a189a;
+  --purple-mononochrome-medium: #682ba5;
   --purple-mononochrome-medium-light: #7b2cbf;
   --purple-mononochrome-light: #9d4edd;
 
@@ -17,19 +17,65 @@
   --blue-mononochrome-medium-light: #63b0e3;
   --blue-mononochrome-light: #97caed;
 
-  --coral-mononochrome-dark: #ef6351;
+  --coral-mononochrome-dark: #fc7665;
   --coral-mononochrome-medium-dark: #f38375;
-  --coral-mononochrome-medium: #f7a399;
-  --coral-mononochrome-medium-light: #fbc3bc;
-  --coral-mononochrome-light: #ffe3e0;
+  --coral-mononochrome-medium: #ee8d81;
+  --coral-mononochrome-medium-light: #f09d92;
+  --coral-mononochrome-light: #f0b0a8;
 
-  --brown-mononochrome-dark: #915858;
-  --brown-mononochrome-medium-dark: #a56c6c;
-  --brown-mononochrome-medium: #c38888;
-  --brown-mononochrome-medium-light: #e0a2a2;
-  --brown-mononochrome-light: #f3b6b6;
+  --brown-mononochrome-dark: #553838;
+  --brown-mononochrome-medium-dark: #795656;
+  --brown-mononochrome-medium: #885a5a;
+  --brown-mononochrome-medium-light: #b17676;
+  --brown-mononochrome-light: #b38d8d;
+
+  --main-color-dark: #33332d;
+  --main-color-light: #e1e1e1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
 }
