@@ -1,36 +1,55 @@
-:root {
-  --teal-mononochrome-dark: #03312e;
-  --teal-mononochrome-medium-dark: #037171;
-  --teal-mononochrome-medium: #009f93;
-  --teal-mononochrome-medium-light: #00b9ae;
-  --teal-mononochrome-light: #02c3bd;
+body[data-mode='light-mode'] {
+  --bg-color: #fff;
+  --secondary-bg-color: #e1e1e1;
+  --color: #212121;
+  --secondary-color: #33332d;
+}
 
-  --purple-mononochrome-dark: #240046;
-  --purple-mononochrome-medium-dark: #3c096c;
-  --purple-mononochrome-medium: #682ba5;
-  --purple-mononochrome-medium-light: #7b2cbf;
-  --purple-mononochrome-light: #9d4edd;
+body[data-mode='dark-mode'] {
+  --bg-color: #33332d;
+  --secondary-bg-color: #212121;
+  --color: #fff;
+  --secondary-color: #e1e1e1;
+}
 
-  --blue-mononochrome-dark: #0f3a57;
-  --blue-mononochrome-medium-dark: #2280bf;
-  --blue-mononochrome-medium: #3498db;
-  --blue-mononochrome-medium-light: #63b0e3;
-  --blue-mononochrome-light: #97caed;
+body[data-color='teal'] {
+  --dark: #03312e;
+  --medium-dark: #037171;
+  --medium: #009f93;
+  --medium-light: #00b9ae;
+  --light: #02c3bd;
+}
 
-  --coral-mononochrome-dark: #fc7665;
-  --coral-mononochrome-medium-dark: #f38375;
-  --coral-mononochrome-medium: #ee8d81;
-  --coral-mononochrome-medium-light: #f09d92;
-  --coral-mononochrome-light: #f0b0a8;
+body[data-color='purple'] {
+  --dark: #240046;
+  --medium-dark: #3c096c;
+  --medium: #682ba5;
+  --medium-light: #7b2cbf;
+  --light: #9d4edd;
+}
 
-  --brown-mononochrome-dark: #553838;
-  --brown-mononochrome-medium-dark: #795656;
-  --brown-mononochrome-medium: #885a5a;
-  --brown-mononochrome-medium-light: #b17676;
-  --brown-mononochrome-light: #b38d8d;
+body[data-color='blue'] {
+  --dark: #0f3a57;
+  --medium-dark: #2280bf;
+  --medium: #3498db;
+  --medium-light: #63b0e3;
+  --light: #97caed;
+}
 
-  --main-color-dark: #33332d;
-  --main-color-light: #e1e1e1;
+body[data-color='coral'] {
+  --dark: #fc7665;
+  --medium-dark: #f38375;
+  --medium: #ee8d81;
+  --medium-light: #f09d92;
+  --light: #f0b0a8;
+}
+
+body[data-color='brown'] {
+  --dark: #553838;
+  --medium-dark: #795656;
+  --medium: #885a5a;
+  --medium-light: #b17676;
+  --light: #b38d8d;
 }
 
 *,

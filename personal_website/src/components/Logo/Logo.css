@@ -6,6 +6,20 @@
   justify-content: space-evenly;
   padding: 2px;
   cursor: default;
+
+  color: var(--color);
+  box-shadow: var(--medium) 10px 10px;
+  border: 5px solid var(--light);
+  transition: 'color 0.1s ease, backgroundColor 0.1s ease';
+}
+
+.logo:hover {
+  color: var(--bg-color);
+  background-color: var(--secondary-color);
+}
+
+.logo svg {
+  fill: var(--medium);
 }
 
 .logo-image-title-container {
